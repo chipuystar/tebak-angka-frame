@@ -8,7 +8,7 @@ export default function Home() {
         <meta name="fc:frame:button:1" content="Tebak 1" />
         <meta name="fc:frame:button:2" content="Tebak 2" />
         <meta name="fc:frame:button:3" content="Tebak 3" />
-        <meta name="fc:frame:post_url" content="https://your-deployment-url.vercel.app/api/guess" />
+        <meta name="fc:frame:post_url" content="https://tebak-angka-frame.vercel.app/api/guess" />
         <title>Tebak Angka!</title>
       </head>
       <body>
