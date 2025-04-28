@@ -10,13 +10,13 @@ export default function handler(req, res) {
       {
         frame: "vNext",
         image: isCorrect
-          ? "https://your-deployment-url.vercel.app/win.png"
-          : "https://your-deployment-url.vercel.app/lose.png",
+          ? "https://tebak-angka-frame.vercel.app/win.png"
+          : "https://tebak-angka-frame.vercel.app/lose.png",
         buttons: [
           {
             label: "Main Lagi",
             action: "post",
-            target: "https://your-deployment-url.vercel.app/"
+            target: "https://tebak-angka-frame.vercel.app/"
           }
         ]
       }
